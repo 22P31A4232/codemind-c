@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int h;
-  scanf("%d",&h);
-  float cm;
-  cm=2.54*h;
-  printf("%0.2f",cm);
+    int height;
+    scanf("%d",&height);
+    float h;
+    h=2.54*height;
+    printf("%0.2f",h);
 }
