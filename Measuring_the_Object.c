@@ -5,34 +5,35 @@ int main()
     scanf("%d%d%d%d",&w,&x,&y,&z);
     if(w==x)
     {
-        printf("YES");
+        printf("YES");    
     }
     else if(w==y)
     {
-        printf("YES");
+       printf("YES"); 
     }
     else if(w==z)
     {
-        printf("YES");
+        printf("YES"); 
     }
     else if(w==x+y)
     {
-        printf("YES");
+       printf("YES"); 
     }
     else if(w==y+z)
     {
-        printf("YES");
+       printf("YES"); 
     }
     else if(w==x+z)
     {
-        printf("YES");
+         printf("YES"); 
     }
     else if(w==x+y+z)
     {
-        printf("YES");
+         printf("YES"); 
     }
     else
     {
         printf("NO");
     }
+    
 }
