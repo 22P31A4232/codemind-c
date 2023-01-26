@@ -32,11 +32,11 @@ int main()
     if(bill>400)
     {
         sr=bill*0.15;
-        tb=bill+sr;
+        tb=sr+bill;
     }
     else
     {
-        tb=bill+sr;
+        tb=sr+bill;
     }
     printf("Units Consumed: %d
 ",u);
