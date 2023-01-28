@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,a,i,b;
-    scanf("%d%d%d",&n,&a,&b);
+    int n,i,a;
+    scanf("%d%d",&n,&a);
     for(i=1;i<=a;i++)
     {
         printf("%d x %d = %d
